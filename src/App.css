@@ -1,0 +1,106 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.logo {
+  height: 12em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 30ms linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* 🌐 Leaflet GeoSearch styling fix */
+.leaflet-control-geosearch {
+  display: block !important;
+  position: absolute !important;
+  top: 10px;
+  left: 50px;
+  transform: none;
+  z-index: 10000 !important;
+  background-color: white !important;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.leaflet-control-geosearch form {
+  display: flex !important;
+}
+
+.leaflet-control-geosearch input[type="text"] {
+  width: 280px !important;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Results dropdown container */
+.leaflet-control-geosearch .results {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  margin-top: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+  z-index: 10000 !important;
+}
+
+/* Each result item */
+.leaflet-control-geosearch .results > * {
+  color: black !important;
+  background-color: white !important;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+/* Hover effect on result */
+.leaflet-control-geosearch .results > *:hover {
+  background-color: #f0f0f0 !important;
+  color: black !important;
+}
+
+/* Force all Leaflet controls on top */
+.leaflet-top,
+.leaflet-control {
+  z-index: 10000 !important;
+}
