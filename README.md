@@ -40,7 +40,7 @@ Civic Issue Resolver simplifies citizen-to-government communication by providing
 
 ## 🌍 Live Demo
 
-- 🖥️ Frontend: [https://civic-issue-resolver.vercel.app](https://civic-issue-resolver.vercel.app)
+- 🖥️ Frontend: [https://urban-mitra-sih.vercel.app/](https://urban-mitra-sih.vercel.app/)
 - 🌐 Backend API: [https://civicissue-resolver.onrender.com/api](https://civicissue-resolver.onrender.com/api)
 
 ---
@@ -134,6 +134,6 @@ CLOUDINARY_API_KEY=your_cloudinary_key
 CLOUDINARY_API_SECRET=your_cloudinary_secret
 SMTP_USER=your_email@gmail.com
 SMTP_PASS=your_gmail_app_password
-FRONTEND_URL=https://civic-issue-resolver.vercel.app
+FRONTEND_URL=https://urban-mitra-sih.vercel.app/
 
 
